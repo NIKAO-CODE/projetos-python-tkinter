@@ -1,6 +1,6 @@
 import random
 
-def jogar():
+def jogar_adivinhacao():
     imprime_mensagem_de_abertura()
 
     numero_secreto = define_numero_secreto()
@@ -74,4 +74,4 @@ def define_total_de_tentativas(nivel):
     
 
 if(__name__ == "__main__"):
-    jogar()
+    jogar_adivinhacao()

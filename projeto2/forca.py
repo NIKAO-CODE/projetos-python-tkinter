@@ -1,7 +1,7 @@
 import random
 
 
-def jogar():
+def jogar_forca():
     imprime_mensagem_de_abertura()
     palavra_secreta = carrega_palavra_secreta()
 
@@ -39,7 +39,7 @@ def imprime_mensagem_de_abertura():
 
 
 def carrega_palavra_secreta():
-    arquivo = open("palavras.txt", "r", encoding='utf8')
+    arquivo = open("projeto2\palavras.txt", "r", encoding='utf8')
     lista_palavras = []
 
     for linha in arquivo:
@@ -160,4 +160,4 @@ def imprime_mensagem_perdedor(palavra_secreta):
 
 
 if(__name__ == "__main__"):
-    jogar()
+    jogar_forca()
